@@ -19,6 +19,7 @@ class CardGame:
 
 
   def check_for_ace(self, card):
+    # missing second = to compare values
     if card.value = 1:
       return True
       # should be a : after else
@@ -26,8 +27,9 @@ class CardGame:
       return False
 
   # dif should be def
-  # Shluld have a , after card1
+  # Should have a , after card1
   dif highest_card(self, card1 card2):
+  # lines below should be indented more
   if card1.value > card2.value:
     # card should be card1
     return card
@@ -35,13 +37,14 @@ class CardGame:
     return card2
 
 
-
+# def should be indented 1 more tab. In line with the above def
 def cards_total(self, cards):
   # total has not been declared. Should be total = 0
   total
   for card in cards:
     total += card.value
     # return should be on the same indentation as for to return the total
+    # cannot concatenate total as it is an integer.
     return "You have a total of" + total
 
 ```
